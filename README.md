@@ -11,4 +11,4 @@ You don't
 
 License
 -------
-The source code of this website is available under the [MIT license](https://en.wikipedia.org/wiki/MIT_License#License_terms). The resources (everything in `src/res/`) should not be redistributed.
+The source code of this website is available under the [MIT license](https://en.wikipedia.org/wiki/MIT_License#License_terms). The resources (everything in `src/res/`) should not be redistributed, though.
