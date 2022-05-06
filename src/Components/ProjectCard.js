@@ -4,9 +4,9 @@ import * as React from 'react';
 export default function ProjectCard(props) {
 	return (
 		<React.Fragment>
-			<Tooltip title="View on GitHub" placement="bottom" arrow>
+			<Tooltip title={ props.tooltip } placement="bottom" arrow>
 				<Card sx={{ maxWidth: 400, minWidth: 200 }}>
-					<CardActionArea href={ props.githubLink } target="_blank">
+					<CardActionArea href={ props.link } target="_blank">
 						<CardMedia
 							component="img"
 							height="225"
