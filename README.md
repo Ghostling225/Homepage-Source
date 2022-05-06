@@ -1,5 +1,5 @@
 # Homepage: A React app
-Homepage is a simple React webapp built by me using `create-react-app` (for the boilerplate) and `react-router` (for the subsite routing)  
+Homepage is a simple React webapp built by me using `create-react-app` (for the boilerplate) and `react-router` (for the subsite routing). GitHub Pages routing issues are fixed through the [spa-github-pages](https://github.com/rafgraph/spa-github-pages) guide.  
 
 Purpose
 -------
