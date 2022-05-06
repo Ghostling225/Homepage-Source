@@ -1,4 +1,4 @@
-import { Card, CardActionArea, CardActions, CardMedia, CardContent, Typography, Button, Tooltip } from '@mui/material';
+import { Card, CardActionArea, CardMedia, CardContent, Typography, Tooltip } from '@mui/material';
 import * as React from 'react';
 
 export default function ProjectCard(props) {
