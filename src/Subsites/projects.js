@@ -27,7 +27,7 @@ export default function SubsiteProjects() {
 			<Box sx={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', alignContent: 'space-evenly', gap: 1}}>
 				{
 					projectTitles.map((_text, index) => (
-						<ProjectCard key={projectTitles[index]} img={projectImages[index]} title={projectTitles[index]} description={projectDescriptions[index]} githubLink={projectGithubLinks[index]} tooltip={projectTooltips[index]} />
+						<ProjectCard key={projectTitles[index]} img={projectImages[index]} title={projectTitles[index]} description={projectDescriptions[index]} link={projectGithubLinks[index]} tooltip={projectTooltips[index]} />
 					))
 				}
 			</Box>
