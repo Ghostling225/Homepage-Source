@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Button, Card, CardActions, CardContent, CardMedia, Tooltip, Typography } from '@mui/material';
+import { Button, Card, CardActions, CardContent, Tooltip, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 
 // import contactImg from '../res/contact.png';
