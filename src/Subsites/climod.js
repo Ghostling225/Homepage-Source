@@ -2,8 +2,7 @@ import { Box, Typography } from "@mui/material"
 import * as React from "react"
 
 import '../Components/ProjectCard'
-import ProjectCard from "../Components/ProjectCard"
-import climodImg from '../res/climod.png'
+import ProjectCard from '../Components/ProjectCard'
 import climodsourceImg from '../res/climodsource.png'
 import climoddocsImg from '../res/climoddocs.png'
 

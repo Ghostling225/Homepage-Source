@@ -11,7 +11,7 @@ export default function ProjectCard(props) {
 							component="img"
 							height="225"
 							image={ props.img }
-							alt="Image"
+							alt="Card decorative image"
 						/>
 						<CardContent>
 							<Typography variant="h5">
