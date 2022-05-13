@@ -44,7 +44,7 @@ export default function SubsiteContact() {
 							</Button>
 						</Tooltip>
 						<Tooltip title="Visit Ghostling225's GitHub profile" arrow>
-							<Button href="https://discord.com/users/627508227289907220" target="_blank">
+							<Button href="https://github.com/Ghostling225" target="_blank">
 								GitHub
 							</Button>
 						</Tooltip>
