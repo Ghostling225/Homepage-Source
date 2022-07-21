@@ -2,13 +2,12 @@ import * as React from 'react';
 
 import { Button, Card, CardActions, CardContent, Tooltip, Typography } from '@mui/material';
 import { Box } from '@mui/system';
-
-// import contactImg from '../res/contact.png';
+import { EmailRounded } from '@mui/icons-material';
 
 export default function SubsiteContact() {
 	return (
 		<React.Fragment>
-			<Typography variant="h4">Contact</Typography>
+			<EmailRounded /> <Typography display="inline" variant="h4">Contact</Typography>
 			<Typography>Find me online!</Typography>
 
 			<Box sx={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', alignContent: 'space-evenly', gap: 1 }}>

@@ -1,15 +1,16 @@
 import { Box, Typography } from "@mui/material"
 import * as React from "react"
+import { TopicRounded } from "@mui/icons-material"
 
 import '../Components/ProjectCard'
 import ProjectCard from '../Components/ProjectCard'
-import climodsourceImg from '../res/climodsource.png'
 import climoddocsImg from '../res/climoddocs.png'
+import climodsourceImg from '../res/climodsource.png'
 
 export default function SubsiteCLImod() {
 	return (
 		<React.Fragment>
-			<Typography variant="h4">CLImod</Typography>
+			<TopicRounded /> <Typography display="inline" variant="h4">CLImod</Typography>
 			<Typography>CLImod is a Minecraft coremod that adds useful client-side commands to the game.</Typography>
 			
 			<Box sx={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', alignContent: 'space-evenly', gap: 1}}>
