@@ -1,11 +1,12 @@
+import { HomeRounded } from '@mui/icons-material';
 import { Typography } from '@mui/material';
 import * as React from 'react';
 
 export default function SubsiteHome() {
 	return (
 		<React.Fragment>
-			<Typography variant="h4">Ghostling225's Homepage</Typography>
-			<Typography>Hi, this is my personal website! Various personal projects of mine will be hosted here</Typography>
+			<HomeRounded /> <Typography display="inline" variant="h4">Home</Typography>
+			<Typography>This is my personal website, written from scratch in React and hosted on GitHub Pages</Typography>
 		</React.Fragment>
 	)
 }

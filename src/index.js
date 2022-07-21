@@ -12,7 +12,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 // Subsites
 import SubsiteHome from './Subsites/home';
 import SubsiteProjects from './Subsites/projects';
-import SubsiteApps from './Subsites/apps';
+import SubsiteGames from './Subsites/games';
 import SubsiteContact from './Subsites/contact';
 import SubsiteCLImod from './Subsites/climod';
 
@@ -32,7 +32,7 @@ ReactDOM.render(
 						<Route path="/" element={ <App /> }>
 							<Route path="home" element={ <SubsiteHome /> }></Route>
 							<Route path="projects" element={ <SubsiteProjects /> }></Route>
-							<Route path="apps" element={ <SubsiteApps /> }></Route>
+							<Route path="games" element={ <SubsiteGames /> }></Route>
 							<Route path="contact" element={ <SubsiteContact /> }></Route>
 							<Route path="climod" element={ <SubsiteCLImod /> }></Route>
 						</Route>

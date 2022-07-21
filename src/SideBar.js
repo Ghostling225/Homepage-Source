@@ -11,13 +11,13 @@ import ListItem from '@mui/material/ListItem';
 import List from '@mui/material/List';
 
 // Subpages icons
-import { HomeRounded, CodeRounded, AppsRounded, EmailRounded, TopicRounded } from '@mui/icons-material/';
+import { HomeRounded, CodeRounded, EmailRounded, TopicRounded, VideogameAssetRounded } from '@mui/icons-material/';
 
 import { Link } from 'react-router-dom';
 
 const drawerWidth = 240;
-const pageTitles = ['Home', 'Projects', 'Apps', 'Contact', 'CLImod'];
-const pageIcons = [<HomeRounded />, <CodeRounded />, <AppsRounded />, <EmailRounded />, <TopicRounded />];
+const pageTitles = ['Home', 'Projects', 'Games', 'Contact', 'CLImod'];
+const pageIcons = [<HomeRounded />, <CodeRounded />, <VideogameAssetRounded />, <EmailRounded />, <TopicRounded />];
 
 export default function ClippedDrawer() {
 	return (
